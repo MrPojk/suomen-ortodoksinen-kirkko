@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8e1;
+    color: #333;
+}
+
+header {
+    background-color: #004d40;
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0 0 0.5rem 0;
+    text-align: center;
+}
+
+nav button {
+    background-color: #00796b;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+nav button.active, nav button:hover {
+    background-color: #004d40;
+}
+
+#search-container {
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#search-input {
+    flex-grow: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#search-button {
+    background-color: #00796b;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+#search-button:hover {
+    background-color: #004d40;
+}
+
+#search-results {
+    margin-top: 0.5rem;
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+#search-results ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#search-results li {
+    margin-bottom: 0.5rem;
+}
+
+#search-results a {
+    text-decoration: none;
+    color: #00796b;
+}
+
+#search-results a:hover {
+    text-decoration: underline;
+}
+
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+.center-text, .center-text * {
+    text-align: center;
+}
